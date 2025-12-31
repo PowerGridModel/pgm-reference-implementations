@@ -34,7 +34,7 @@ Proposed structure is to have a module per reference implementation. Example:
 pgm-reference-implementations/
 ├── grid-connection/          # Grid connection examples
 ├── real-time-congestion/     # Real-time congestion management
-├── ahead-congestion/         # 48h ahead congestion management
+├── predictive-congestion/    # 48h ahead congestion management
 ├── grid-planning/            # Grid planning scenarios
 ├── common/                   # Shared utilities and helpers
 └── docs/                     # Documentation and guides
