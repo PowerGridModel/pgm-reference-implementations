@@ -8,50 +8,28 @@ Power Grid Model Reference Implementations provides practical examples and refer
 
 ## Use Cases
 
-This repository will showcase implementations for the following use-cases:
+This repository will showcase implementations for various use-cases, including:
 
-### 🔌 Grid Connection
-Reference implementations for analyzing and validating new grid connections, including capacity assessment and impact analysis on existing infrastructure.
+- **Grid Connection:** Reference implementations for analyzing and validating new grid connections, including capacity assessment and impact analysis on existing infrastructure.
 
-### ⚡ Real-time Congestion Management
-Examples demonstrating real-time monitoring and management of grid congestion, enabling operators to respond quickly to capacity constraints and maintain grid stability.
+- **Real-time Congestion Management:** Examples demonstrating real-time monitoring and management of grid congestion, enabling operators to respond quickly to capacity constraints and maintain grid stability.
 
-### 📊 48-Hour Ahead Congestion Management
-Implementations for predictive congestion management, allowing grid operators to forecast and plan for congestion events within a 48-hour horizon.
+- **48-Hour Ahead Congestion Management:** Implementations for predictive congestion management, allowing grid operators to forecast and plan for congestion events within a 48-hour horizon.
 
-### 🏗️ Grid Planning
-Reference implementations for long-term grid planning scenarios, including infrastructure expansion, capacity planning, and network optimization.
+- **Grid Planning:** Reference implementations for long-term grid planning scenarios, including infrastructure expansion, capacity planning, and network optimization.
 
 ## Voltage Levels
 
-The reference implementations cover all voltage levels in the power distribution system:
+The reference implementations can differ for various (low, medium, high) voltage levels.
 
-- **Low Voltage (LV)**: Residential and small commercial applications (typically < 1 kV)
-- **Medium Voltage (MV)**: Distribution networks serving larger areas (typically 1-35 kV)
-- **High Voltage (HV)**: Transmission and sub-transmission networks (typically > 35 kV)
 
 ## Getting Started
 
 > **Note**: This repository is currently under development. Reference implementations and examples will be added progressively.
 
-### Prerequisites
-
-- Python 3.8 or higher
-- [Power Grid Model](https://github.com/PowerGridModel/power-grid-model) library
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/PowerGridModel/pgm-reference-implementations.git
-cd pgm-reference-implementations
-
-# Install dependencies (once examples are available)
-pip install -r requirements.txt
-```
 
 ## Repository Structure
-
+Proposed structure is to have a module per reference implementation. Example: 
 ```
 pgm-reference-implementations/
 ├── grid-connection/          # Grid connection examples
@@ -66,7 +44,7 @@ pgm-reference-implementations/
 
 We welcome contributions! Whether you're fixing bugs, adding new reference implementations, or improving documentation, your help is appreciated.
 
-Please see our [contributing guidelines](CONTRIBUTING.md) (coming soon) for more information on how to get involved.
+Please see our [contributing guidelines](https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md) for more information on how to get involved.
 
 ## License
 
@@ -76,13 +54,15 @@ This project is licensed under the Mozilla Public License Version 2.0 - see the 
 
 - [Power Grid Model](https://github.com/PowerGridModel/power-grid-model) - The core library for power system analysis
 - [Power Grid Model IO](https://github.com/PowerGridModel/power-grid-model-io) - Input/output utilities for Power Grid Model
+- [Power Grid Model DS](https://github.com/PowerGridModel/power-grid-model-io) - Data science (Python) for Power Grid Model, providing more flexibility
 
 ## Contact and Support
 
 - **Issues**: Please report bugs and feature requests via [GitHub Issues](https://github.com/PowerGridModel/pgm-reference-implementations/issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/PowerGridModel/pgm-reference-implementations/discussions)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/orgs/PowerGridModel/discussions)
 - **Documentation**: Visit the [Power Grid Model documentation](https://power-grid-model.readthedocs.io/)
 
-## Acknowledgments
+## Contact
 
-Power Grid Model is developed and maintained by contributors from Alliander and the open-source community.
+Please read [SUPPORT](https://github.com/PowerGridModel/.github/blob/main/SUPPORT.md) for how to connect and get into
+contact with the Power Grid Model project.
